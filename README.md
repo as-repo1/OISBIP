@@ -9,10 +9,7 @@ This is a simple web-based calculator application that allows users to perform b
 
 - [Features](#features)
 - [Usage](#usage)
-- [Demo](#demo)
 - [Getting Started](#getting-started)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -34,9 +31,6 @@ To use the calculator, simply click on the buttons to input numbers and perform 
 6. Use the n² button to calculate the square of the current result.
 7. Click on the 'C' button to clear the input and reset the calculator.
 
-## Demo
-
-You can try out the calculator by visiting the [Calculator Demo](#).
 
 ## Getting Started
 
