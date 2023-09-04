@@ -36,7 +36,6 @@ To run the calculator locally or integrate it into your project, follow these st
    ```bash
    git clone https://github.com/yourusername/calculator-web-app.git
 
-
 # do_something
 to-do web application
  ,want_DEMO ? -> [Here](https://as-repo1.github.io/do_something/)
