@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* body takes up the full viewport height */
+    margin: 0;
+}
+
+
+.calculator {
+    background-color: #7a8b96;
+    border-radius: 15px; /* Rounded corners for the calculator */
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    text-align: center; 
+}
+
+/* Style the calculator input field */
+#result {
+     /* width: 92%; */
+    padding: 10px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Style the calculator buttons */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    background-color: #cae3e1;
+    border: none;
+    border-radius: 50%; /* Make the buttons round */
+    padding: 25px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.4s ease; /* Smoothening button background color change */
+}
+
+button:hover {
+    background-color: #808fa0; 
+}
+
+/* Style specific buttons differently */
+#modulus, #binary, #log {
+    background-color: #648bb4; 
+    color: rgb(206, 226, 238);
+}
+
+#modulus:hover, #binary:hover, #log:hover {
+    background-color: #363e54; 
+}
